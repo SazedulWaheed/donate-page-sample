@@ -57,11 +57,11 @@ section{
 .bottom-margin{
     margin-bottom: 60px;
 }
-.box-center-align{
+#moneybox-center-align{
     margin-left: 20%;
     margin-right: 20%;
 }
-.selected-money-box{
+#selected-money-box{
     background: #FFEEEE;
     border: 3px solid #FF5959;
 }
@@ -77,6 +77,27 @@ input[type=text]{
     border-right: none;
     border-left: none;
   }
-  #money-form{
+#money-form{
     margin-bottom: 30px;
   }
+#plan-box{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#food{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 15px;
+    margin-right: 15px;
+    padding: 40px 20px 40px 20px;
+}
+#shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 15px;
+    margin-right: 15px;
+    padding: 40px 20px 40px 20px;
+}
+#education{
+    background-color: #FFF4D6;
+    border-radius: 15px;
+    padding: 40px 20px 40px 20px;
+}

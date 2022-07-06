@@ -16,6 +16,7 @@
   </head>
 
   <body>
+    <!--Banner Section-->
     <section class="banner-part text-center-align">
       <div>
         <h1>Help Those Who Need<br />Us The Most</h1>
@@ -24,13 +25,13 @@
           devastating <br />
           flood by donating to our oraganization.
         </p>
-
         <a class="button-style" href="https://www.bidyanondo.org/donate"
           >Donate now</a
         >
       </div>
     </section>
 
+    <!--Donate money selector section-->
     <section>
       <div class="text-center-align">
         <h2>Donate Today</h2>
@@ -40,20 +41,66 @@
           can make a huge difference to the lives of the needy.
         </p>
       </div>
-      <div class="flex-display top-margin bottom-margin box-center-align">
+      <!--Money amount selector part-->
+      <div
+        class="flex-display top-margin bottom-margin"
+        id="moneybox-center-align"
+      >
         <div><a class="money-amount-selector" href="">$5</a></div>
         <div>
-          <a class="money-amount-selector selected-money-box" href="">$10</a>
+          <a class="money-amount-selector" id="selected-money-box" href=""
+            >$10</a
+          >
         </div>
         <div><a class="money-amount-selector" href="">$20</a></div>
         <div><a class="money-amount-selector" href="">$50</a></div>
         <div><a class="money-amount-selector" href="">$100</a></div>
       </div>
-      <div class="top-margin text-center-align gray-text">
+      <!--Other amount and button part-->
+      <div class="top-margin bottom-margin text-center-align gray-text">
         <form action="" id="money-form">
           <input type="text" placeholder="Other Amount ($)" />
         </form>
         <a class="button-style" href="">Donate now</a>
+      </div>
+    </section>
+
+    <!--Donate plan section-->
+    <section>
+      <div class="text-center-align">
+        <h2>Our Donate Plan</h2>
+        <p class="gray-text bottom-margin">
+          Every dollar you donate will make someone's life better. Donating as
+          little as five dollars <br />
+          can make a huge difference to the lives of the needy.
+        </p>
+      </div>
+      <!--Donate plan boxes part-->
+      <div class="flex-display bottom-margin" id="plan-box">
+        <div id="food">
+          <img src="images/food.png" alt="food icon" />
+          <h3>Food for a family</h3>
+          <p>
+            Your $100 donation will provide food for a family of 2 for a month.
+            Become an angel to these affected families by donating to our plan.
+          </p>
+        </div>
+        <div id="shelter">
+          <img src="images/shelter.png" alt="shelter icon" />
+          <h3>Shelter for a family</h3>
+          <p>
+            Help as much as you can for the flood-affected people. They are in
+            urgent need of a safe place far from the flood-affected area.
+          </p>
+        </div>
+        <div id="education">
+          <img src="images/education.png" alt="education icon" />
+          <h3>Education for a family</h3>
+          <p>
+            The flood had devastating effects on the education programme for the
+            children. Donate $50 for education of one child for a whole month.
+          </p>
+        </div>
       </div>
     </section>
   </body>
